@@ -1,0 +1,1 @@
+docker build -t rainyak/chatgpt-web-app:2.6 .

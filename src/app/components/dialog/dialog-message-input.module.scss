@@ -1,0 +1,31 @@
+.wrapper{
+  border-top: 1px solid #f5f5f5;
+  padding: 12px;
+  position: relative;
+}
+@media (max-width: 600px) {
+  .dialog-message-input_textarea {
+    height: 80px !important; // 调整为你希望的高度
+    font-size: 12px; // 调整为你希望的字体大小
+  }
+}
+.textarea {
+  margin-top: 16px;
+  resize: none !important;
+  outline: none;
+  height: 200px !important;
+  overflow: auto;
+  border: 1px solid var(--primary) !important;
+  &:focus{
+    border: 1px solid var(--primary) !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+.btn{
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  border: none;
+  background-color: var(--primary);
+}

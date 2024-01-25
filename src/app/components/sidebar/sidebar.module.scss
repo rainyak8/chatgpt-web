@@ -1,0 +1,82 @@
+.sidebar {
+  top: 0;
+  width: var(--sidebar-width);
+  height: var(--full-height);
+  position: relative;
+  background-color: #F5F5F5;
+}
+
+.sidebar-header {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  position: relative;
+  margin: 45px auto 0;
+  background-position: center;
+}
+
+.sidebar-chat {
+  width: 33px;
+  height: 33px;
+  position: relative;
+  border-radius: 4px;
+  margin: 24px auto 0;
+  background-size: contain;
+  border: #c7c7c7 1px solid;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sidebar-role {
+  width: 33px;
+  height: 33px;
+  position: relative;
+  margin: 15px auto 0;
+  border-radius: 4px;
+  border: #c7c7c7 1px solid;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sidebar-mall {
+  width: 33px;
+  height: 33px;
+  border-radius: 4px;
+  border: #c7c7c7 1px solid;
+  position: relative;
+  margin: 15px auto 0;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sidebar-git {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  display: block;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.action-button {
+  display: inline-flex;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+.action-button svg {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.action-button:hover svg {
+  opacity: 1;
+}
+
+.active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
